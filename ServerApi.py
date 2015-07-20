@@ -59,7 +59,7 @@ class ServerApi(ServerAccess):
                 return None
 
 #if __name__ == '__main__':
-    #server_access = ServerAccess('host', 'username', 'pw')
+    #server = ServerApi('host', 'username', 'pw')
     #print server.is_git_installed()
     #server.install_git()
     #print server.is_git_installed()

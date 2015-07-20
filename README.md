@@ -2,7 +2,7 @@ ServerAccess
 
 Typcical usage:
 
-    server_access = ServerAccess('host', 'username', 'pw')
+    server = ServerApi('host', 'username', 'pw')
 
     # Install git
     if not server.is_git_installed():
@@ -14,6 +14,8 @@ Typcical usage:
 
     # Run Terminal commands directly
     server_access = ServerAccess('host', 'username', 'pw')
+
+    # Non sudo commands
     response, error = server_access.run("uname -s")
     response, error = server_access.run("uptime")
     response, error = server_access.run("ls")
