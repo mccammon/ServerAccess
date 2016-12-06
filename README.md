@@ -1,5 +1,10 @@
 ServerAccess
 
+SETUP:
+    virtualenv -p /usr/local/bin/python venv
+    source venv/bin/activate
+    easy_install .
+
 Typcical usage:
 
     server = ServerApi('host', 'username', 'pw')
