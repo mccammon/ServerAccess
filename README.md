@@ -28,3 +28,5 @@ Typcical usage:
 
     # Run terminal command as sudo (don't include sudo in string)
     print server_access.run_sudo("dmesg")
+
+    Testing security scanner now...
